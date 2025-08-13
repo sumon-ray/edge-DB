@@ -10,6 +10,7 @@ CREATE TABLE Students (
     FOREIGN KEY (department_id) REFERENCES Departments(department_id)
 );
 
+
 -- 2. Insert two students
 INSERT INTO Students (student_id, name, email, dob, department_id)
 VALUES 
